@@ -1,0 +1,49 @@
+{
+  "name": "regex-flags",
+  "description": "Does one simple thing - gets the flags from a regular expression. Useful for cloning and any library that uses or generates regular expressions that are created from other regular expressions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/regex-flags",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/regex-flags",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/regex-flags/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "kind-of": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "expression",
+    "flag",
+    "flags",
+    "get",
+    "keys",
+    "regex",
+    "regexp",
+    "regular",
+    "regular-expression"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "is-glob",
+        "regex-cache",
+        "is-equal-regex"
+      ]
+    }
+  }
+}
